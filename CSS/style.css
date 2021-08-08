@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.background{
+    background-color: grey;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    width: 60%;
+    height: 65%;
+    border-radius: 8px;
+}
+.insider{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.left{
+    position: absolute;
+    width: 60%;
+}
+.right{
+    position: absolute;
+    width: 40%;
+    background: yellowgreen;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    display: flex;
+    direction: row;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+#text-1{
+    display: inline;
+}
